@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Nay Clinic - Your Health, Our Priority</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Dr. Nay Clinic</div>
+            <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Our Doctors</a></li>
+                <li><a href="#lab-radio">Lab & Imaging</a></li>
+                <li><a href="#contact-info">Contact & Hours</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="slider">
+                <div class="slide active" style="background-image: url('https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                    <div class="hero-content">
+                        <h1>Compassionate & Comprehensive Care</h1>
+                        <p>Your health and well-being are our top priorities.</p>
+                        <a href="#appointment" class="cta-button">Book an Appointment</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                    <div class="hero-content">
+                        <h1>State-of-the-Art Medical Facility</h1>
+                        <p>Equipped with the latest technology for accurate diagnostics.</p>
+                        <a href="#appointment" class="cta-button">Book an Appointment</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+                    <div class="hero-content">
+                        <h1>A Team That Cares About You</h1>
+                        <p>Building lasting relationships with our patients.</p>
+                        <a href="#appointment" class="cta-button">Book an Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="https://t3.ftcdn.net/jpg/02/98/18/02/360_F_298180242_Llf0dK7UaycXV8dYV4mTMEzA9tA3vK36.jpg" alt="Dr. Nay">
+                </div>
+                <div class="about-content">
+                    <h2>About Dr. Nay</h2>
+                    <p>Dr. Nay is a board-certified Family Medicine physician with over 15 years of experience dedicated to providing patient-centered care. She graduated from the prestigious Stanford University School of Medicine and completed her residency at Mayo Clinic. Dr. Nay believes in a holistic approach to medicine, focusing not just on treating illness but on promoting wellness and preventing disease.</p>
+                    <h3>Professional Portfolio</h3>
+                    <ul>
+                        <li><strong>Board Certification:</strong> American Board of Family Medicine</li>
+                        <li><strong>Medical Degree:</strong> M.D., Stanford University School of Medicine</li>
+                        <li><strong>Residency:</strong> Family Medicine, Mayo Clinic, Rochester, MN</li>
+                        <li><strong>Professional Memberships:</strong> American Academy of Family Physicians (AAFP), World Medical Association (WMA)</li>
+                        <li><strong>Areas of Expertise:</strong> Chronic Disease Management, Preventive Care, Pediatrics, and Geriatrics.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>General Check-ups</h3>
+                    <p>Comprehensive physical examinations to monitor your health.</p>
+                </div>
+                <div class="card">
+                    <h3>Pediatric Care</h3>
+                    <p>Specialized medical care for infants, children, and adolescents.</p>
+                </div>
+                <div class="card">
+                    <h3>Chronic Disease Management</h3>
+                    <p>Ongoing care and support for managing chronic conditions.</p>
+                </div>
+                <div class="card">
+                    <h3>Women's Health</h3>
+                    <p>Comprehensive care including reproductive health and preventative screenings.</p>
+                </div>
+                <div class="card">
+                    <h3>Vaccinations</h3>
+                    <p>Administering a full range of vaccinations for all age groups.</p>
+                </div>
+                <div class="card">
+                    <h3>Minor Procedures</h3>
+                    <p>In-office minor surgical procedures for convenience and immediate care.</p>
+                </div>
+            </div>
+        </section>
+        <section id="doctors" class="info-section">
+            <h2>Our Dedicated Team of Doctors</h2>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <h3>Dr. Anya Sharma</h3>
+                    <p><strong>Subject:</strong> Pediatrics & Adolescent Medicine</p>
+                    <p>Dr. Sharma specializes in the health and medical care of infants, children, and adolescents. She is passionate about early childhood development and preventative care for young patients.</p>
+                </div>
+                <div class="doctor-card">
+                    <h3>Dr. Ben Carter</h3>
+                    <p><strong>Subject:</strong> Internal Medicine & Cardiology</p>
+                    <p>With a focus on adult medicine, Dr. Carter provides comprehensive care for a wide range of conditions, with a special interest in cardiovascular health and chronic disease management.</p>
+                </div>
+                <div class="doctor-card">
+                    <h3>Dr. Chen Lee</h3>
+                    <p><strong>Subject:</strong> Dermatology & General Practice</p>
+                    <p>Dr. Lee offers expert care for skin conditions of all types, alongside providing general medical consultations and preventative health advice for the whole family.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lab-radio" class="info-section">
+            <h2>Advanced Diagnostic Services</h2>
+            <div class="services-grid">
+                <div class="service-detail-card">
+                    <h3>Laboratory Services</h3>
+                    <ul>
+                        <li><strong>Blood Tests:</strong> Complete Blood Count (CBC), Lipid Panel, Glucose, Thyroid Function Tests, etc.</li>
+                        <li><strong>Urinalysis:</strong> Routine and microscopic examinations.</li>
+                        <li><strong>Pathology Services:</strong> Biopsy analysis and tissue diagnostics.</li>
+                        <li><strong>Microbiology:</strong> Culture and sensitivity testing for infections.</li>
+                        <li><strong>Allergy Testing:</strong> Comprehensive panels to identify allergens.</li>
+                    </ul>
+                </div>
+                <div class="service-detail-card">
+                    <h3>Radioimaging Services</h3>
+                    <ul>
+                        <li><strong>X-ray:</strong> Digital X-rays for bone and chest imaging.</li>
+                        <li><strong>Ultrasound:</strong> Diagnostic imaging for various internal organs, including abdominal, pelvic, and prenatal ultrasounds.</li>
+                        <li><strong>DEXA Scan:</strong> Bone density scanning for osteoporosis detection.</li>
+                        <li><strong>Echocardiography:</strong> Ultrasound of the heart to assess its structure and function.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-info" class="info-section">
+            <h2>Clinic Information</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Clinic Address</h3>
+                    <p><strong>Dr. Nay Clinic</strong><br>
+                    123 Health Street<br>
+                    Wellness City, State 45678<br>
+                    Country</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</li>
+                        <li><strong>Saturday:</strong> 9:00 AM - 1:00 PM</li>
+                        <li><strong>Sunday:</strong> Closed</li>
+                        <li><strong>Public Holidays:</strong> Please call for updated hours.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone">
+                <textarea name="message" rows="4" placeholder="Briefly describe your reason for the visit"></textarea>
+                <button type="submit">Send Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <p><strong>Contact Us:</strong> (123) 456-7890 | contact@drnayclinic.com</p>
+            <p><strong>Location:</strong> 123 Health St, Wellness City, 45678</p>
+        </div>
+        <p>© 2025 Dr. Nay Clinic. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
